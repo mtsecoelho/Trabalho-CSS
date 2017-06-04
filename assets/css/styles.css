@@ -1,0 +1,393 @@
+body {
+  font-family: 'Lato', arial, sans-serif;
+  color: #444444;
+}
+a {
+  color: #56bc94;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+a:hover {
+  text-decoration: none;
+  color: #3fa07a;
+}
+a:focus {
+  text-decoration: none;
+  color: #3fa07a;
+}
+h1 {
+  font-family: 'Sofia';
+  font-size: 3em;
+}
+
+h2 {
+  font-family: 'Sofia';
+  font-size: 2.5em;
+}
+
+h3 {
+  font-family: 'Covered By Your Grace';
+  font-size: 2em;
+}
+
+h4 {
+  font-family: 'Covered By Your Grace';
+  font-size: 1.5em;
+}
+
+h5 {
+  font-family: 'Lato';
+  font-size: 1em;
+}
+
+h6 {
+  font-family: 'Lato';
+  font-size: 0.5em;
+}
+table {
+    color: black;
+    border-collapse: collapse;
+}
+.btn-theme {
+  background: #56bc94;
+  border: 1px solid #56bc94;
+  color: #fff;
+}
+.btn-theme:hover {
+  background: #3fa07a;
+  border: 1px solid #3fa07a;
+  color: #fff;
+}
+.btn-theme:active,
+.btn-theme:focus {
+  color: #fff;
+}
+.form-control {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.form-control:focus {
+  border-color: #56bc94;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.text-highlight {
+  color: #225742;
+}
+.row-end {
+  margin-right: 0;
+  padding-right: 0;
+}
+.offset-header {
+  padding-top: 90px;
+}
+.has-pattern {
+  background-image: url('../images/fundo/fundoescuro.png');
+  background-repeat: repeat;
+  background-position: left top;
+}
+
+/* FlexSlider */
+.flexslider {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 0 0;
+  -moz-box-shadow: 0 0 0;
+  box-shadow: 0 0 0;
+  border: 0;
+}
+.flexslider .flex-control-nav {
+  bottom: -35px;
+}
+.flexslider .flex-control-paging li a {
+  background: #a1a1a1;
+}
+.flexslider .flex-control-paging li a:hover {
+  background: #56bc94;
+}
+.flexslider .flex-control-paging li a.flex-active {
+  background: #56bc94;
+}
+.flexslider .slides li {
+  position: relative;
+}
+
+.promo {
+  background-color: #56bc94;
+  color: #fff;
+}
+.promo .container {
+  padding-bottom: 15px;
+}
+.promo .overview {
+  margin-top: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.promo .overview h2 {
+  /*font-size: 30px; */
+  margin-bottom: 35px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+.promo .overview .summary {
+  margin-bottom: 60px;
+  margin-left: 70px;
+}
+.promo .overview .summary li {
+  margin-bottom: 15px;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 30px;
+  background: url('../images/bola.png') no-repeat left center;
+}
+
+.promo .iphone {
+  position: relative;
+}
+.promo .iphone .iphone-holder {
+  position: relative;
+  width: 320px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.promo .iphone.iphone-black .iphone-holder {
+  background-image: url('../images/iphone/iphone-black.png');
+}
+
+.promo .iphone .iphone-holder-inner {
+  position: absolute;
+  width: 222px;
+  height: 394px;
+  left: 51px;
+  top: 103px;
+}
+.promo .iphone .flexslider .flex-control-nav {
+  bottom: -50px;
+}
+
+/* CSS */
+.config-wrapper {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  z-index: 20;
+}
+.config-wrapper-inner {
+  position: relative;
+}
+.config-trigger {
+  display: block;
+  position: absolute;
+  left: -36px;
+  width: 36px;
+  height: 36px;
+  background: #444444;
+  color: #fff;
+  text-align: center;
+  -webkit-border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -webkit-border-bottom-left-radius: 4px;
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-radius-topright: 0;
+  -moz-border-radius-bottomright: 0;
+  -moz-border-radius-bottomleft: 4px;
+  -moz-border-radius-topleft: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.config-trigger:hover {
+  background: #000;
+}
+.config-trigger .fa {
+  font-size: 22px;
+  padding-top: 8px;
+  display: block;
+  color: #fff;
+}
+.config-panel {
+  width: 190px;
+  display: none;
+  background: #444444;
+  color: #fff;
+  padding: 15px;
+  -webkit-border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -webkit-border-bottom-left-radius: 4px;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topright: 0;
+  -moz-border-radius-bottomright: 0;
+  -moz-border-radius-bottomleft: 4px;
+  -moz-border-radius-topleft: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 0;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.config-panel h5.device-title {
+  margin-bottom: 5px;
+}
+.config-panel #color-options {
+  margin-bottom: 15px;
+}
+.config-panel #device-options {
+  margin-bottom: 0;
+}
+.config-panel #device-options a {
+  color: #999999;
+}
+.config-panel #device-options a:hover {
+  color: #56bc94;
+}
+.config-panel #device-options li.active a {
+  color: #8dd2b7;
+}
+.config-panel #color-options li a {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid transparent;
+}
+.config-panel #color-options li a:hover {
+  -webkit-opacity: 0.9;
+  -moz-opacity: 0.9;
+  opacity: 0.9;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+}
+.config-panel #color-options li.active a {
+  border: 2px solid #fff;
+}
+.config-panel #color-options li.theme-1 a {
+  background: #56bc94;
+}
+.config-panel #color-options li.theme-2 a {
+  background-color: #28a5a8;
+}
+.config-panel .close {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  color: #fff;
+}
+.config-panel .close .fa {
+  color: #fff;
+}
+/* Celular */
+@media (max-width: 767px) {
+  .navbar-toggle {
+    margin-right: 0;
+  }
+  .promo .overview .summary li {
+    font-size: 18px;
+  }
+  .promo .overview .note .left-arrow {
+    left: 0;
+  }
+  .promo .overview .note .right-arrow {
+    right: 0;
+  }
+  .promo .overview .summary {
+    margin-left: 0;
+  }
+  .promo .overview {
+    text-align: center;
+  }
+  .promo .overview .summary {
+    margin-left: 0;
+  }
+  .promo .overview .summary li {
+    text-align: left;
+  }
+  .promo .phone {
+    text-align: center;
+  }
+  .promo .phone .phone-holder {
+    margin: 0 auto;
+    width: auto;
+  }
+  .promo .iphone .iphone-holder {
+    width: 260px;
+    height: 488px;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    margin-bottom: 30px;
+  }
+  .promo .iphone .iphone-holder-inner {
+    width: 181px;
+    height: auto;
+    left: 41px;
+    top: 83px;
+  }
+  .promo .iphone .flexslider .flex-control-nav {
+    bottom: -43px;
+  }
+  .promo .overview .note .left-arrow {
+    -webkit-background-size: 30px auto;
+    -moz-background-size: 30px auto;
+    -o-background-size: 30px auto;
+    background-size: 30px auto;
+  }
+  .promo .overview .note .right-arrow {
+    -webkit-background-size: 30px auto;
+    -moz-background-size: 30px auto;
+    -o-background-size: 30px auto;
+    background-size: 30px auto;
+  }
+  .promo .overview .btn-group li {
+    display: block;
+  }
+}
+/* Tablets */
+@media (min-width: 768px) {
+  .promo .overview {
+    text-align: center;
+  }
+  .promo .overview .summary {
+    margin-left: 60px;
+  }
+  .promo .overview .summary li {
+    text-align: left;
+  }
+  .promo .phone {
+    text-align: center;
+  }
+  .promo .phone .phone-holder {
+    margin: 0 auto;
+  }
+}
+/* Desktops */
+@media (min-width: 992px) {
+  .promo .overview {
+    text-align: left;
+  }
+  .promo .overview .summary {
+    margin-left: 0;
+  }
+  .promo .overview .summary li {
+    text-align: left;
+  }
+  .promo .phone {
+    text-align: left;
+  }
+}
